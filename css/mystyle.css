@@ -1,0 +1,171 @@
+/*Navigation*/
+.dropdown-item:hover {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f4623a;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #f4623a;
+}
+
+.dropdown-item {
+    color: #f4623a;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f4623a;
+    text-decoration: none;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f4623a;
+}
+
+/*background*/
+.bg-search {
+    padding: 12.3em 0;
+    background: linear-gradient(to bottom, #f4623a 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-search.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-insert {
+    padding: 13em 0;
+    background: linear-gradient(to bottom, #f4623a 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-insert.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-update {
+    padding: 12.4em 0;
+    background: linear-gradient(to bottom, #f4623a 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-update.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-notice {
+    padding: 12.5em 0;
+    background: linear-gradient(to bottom, #f4623a 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-notice.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-graph {
+    padding: 12.5em 0;
+    background: linear-gradient(to bottom, #f4623a 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-graph.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+/*search form*/
+#contents {
+    clear: both;
+    max-width: 760px;
+    margin: auto;
+}
+
+.detail_box {
+    clear: both;
+    background-color: #F0F0F0;
+    margin-bottom: 20px;
+    padding: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 5px 5px #b5a99d;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    display: inline-block;
+    display: block;
+}
+
+***** .link_box {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.link_box h3 {
+    text-align: center;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6em;
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, from(#b5a99d), to(#d1c9c1))
+}
+
+.myinput1 {
+    padding: 15px 80px 10px 80px;
+}
+
+.myinput {
+    border-bottom: dotted 1px #CCCCCC;
+    padding: 15px 80px 30px 80px;
+}
+
+@media (max-width: 700px){
+    .myinput1 {
+        padding: 15px 10px 10px 10px;
+    }
+    .myinput {
+        padding: 15px 10px 30px 10px;
+    }
+}
+
+/*gotop*/
+#gotop a{
+    display: block;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 30px;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 1000;
+    background: url(../assets/img/gotop.png);
+}
+
+#gotop a:hover {
+    background: url(../assets/img/gotop1.png);
+}
+
+/*chart*/
+#myChart{
+    max-width: 300px;
+    max-height: 300px;
+    display: inline-block!important;
+}
+#myChart1{
+    max-width: 300px;
+    max-height: 300px;
+    display: inline-block!important;
+}
